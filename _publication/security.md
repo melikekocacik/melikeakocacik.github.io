@@ -3,7 +3,7 @@ title: "Mapping resolve in crisis bargaining through leader public statements: a
 collection: _publications
 permalink: /_publications/security
 excerpt: #'(with [Asli Cansunar](https://www.aslicansunar.com) and [Gozde Corekcioglu](https://www.gozdecorekcioglu.com)), *Forthcoming at the Journal of Politics*
-date: 2025
+date: 2025-01-01
 paperurl: 'https://www.tandfonline.com/doi/pdf/10.1080/09662839.2024.2319239'
 ---
 
