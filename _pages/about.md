@@ -11,8 +11,3 @@ I am an Instructor in the Foundational Development Directorate at Sabancı Unive
 
 My primary research interests revolve around civil wars, non-violent protests, and the use of foreign policy tools. My dissertation project specifically focuses on the statements made by external actors regarding civil conflicts. While the dissertation aimed to identify the factors influencing more resolved leader statements, I am currently engaged in research to better understand how these verbal cues impact the strategies of conflict actors.
 A data-driven personal website
-
-**🔄 Quick Updates:**
-- **New publication?** Add it in `_publications/` folder
-- **New project?** Add it in `/research/` page
-- **Teaching update?** Add it in `_teaching/` folder
