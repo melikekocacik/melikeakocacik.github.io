@@ -11,18 +11,21 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-### Journal Articles
-* Author(s). (Year). "Article Title." *Journal Name*, Volume(Issue), pages. [DOI or link]
-
-### Conference Proceedings
-* Author(s). (Year). "Paper Title." *Conference Name*, Location.
-
-### Working Papers
-* Author(s). (Year). "Paper Title." Under review at *Journal Name*.
-
-## Current Projects
-
-
+{% for post in site.publication reversed %}
+  <h3>{{ post.title }}</h3>
+  <p><strong>{{ post.authors }}</strong><br>
+  <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+  
+  <details>
+    <summary><strong>Abstract</strong> (click to expand)</summary>
+    <p>{{ post.excerpt }}</p>
+  </details>
+  
+  {% if post.paperurl %}
+    <p><a href="{{ post.paperurl }}">Download paper</a></p>
+  {% endif %}
+  <hr>
+{% endfor %}
 
 ## Current Projects
 Quantitative Analysis of Statements of the United States’ Presidents on Internal Armed Conflicts
